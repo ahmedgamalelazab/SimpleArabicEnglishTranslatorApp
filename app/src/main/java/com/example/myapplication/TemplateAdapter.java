@@ -15,16 +15,20 @@ import java.util.ArrayList;
 public class TemplateAdapter extends ArrayAdapter<Vocabulary> {
 
     //inherited the abstracted class and make some override on it's states
-    public TemplateAdapter(Activity Contex , ArrayList<Vocabulary> categories){
-        super(Contex ,0,categories);
-    };
+    public TemplateAdapter(Activity Contex, ArrayList<Vocabulary> categories) {
+        super(Contex, 0, categories);
+    }
+
+    ;
+
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View ListViewItem = convertView;
-        if(ListViewItem == null){
-            ListViewItem = LayoutInflater.from(getContext()).inflate(R.layout.template , parent ,false);
-        };
+        if (ListViewItem == null) {
+            ListViewItem = LayoutInflater.from(getContext()).inflate(R.layout.template, parent, false);
+        }
+        ;
 
         Vocabulary currentCategory = getItem(position);
 
@@ -36,5 +40,7 @@ public class TemplateAdapter extends ArrayAdapter<Vocabulary> {
 
         return ListViewItem;
 
-    };
+    }
+
+    ;
 }

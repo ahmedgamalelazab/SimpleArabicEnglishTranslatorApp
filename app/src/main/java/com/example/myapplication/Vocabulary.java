@@ -11,30 +11,42 @@ public class Vocabulary {
 
     // ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||//
     //----------------section of building a constructor----------------
-    public Vocabulary(String Arabic , String English){
+    public Vocabulary(String Arabic, String English) {
         mArabicTranslations = Arabic;
         mEnglishTranslation = English;
-    };
+    }
+
+    ;
 
     //end of the constructors section
     //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||//
     //----------------sECTION OF Getters----------------
-    public String getEnglish(){
+    public String getEnglish() {
         return mEnglishTranslation;
-    };
-    public String getArabic(){
+    }
+
+    ;
+
+    public String getArabic() {
         return mArabicTranslations;
-    };
+    }
+
+    ;
+
     //end of the Getters sections
     //||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||//
     //----------------sECTION OF Setters----------------
-    public void SetEnglishTranslate(String english){
+    public void SetEnglishTranslate(String english) {
         mEnglishTranslation = english;
-    };
+    }
 
-    public void setArabicTranslate(String arabic){
+    ;
+
+    public void setArabicTranslate(String arabic) {
         mArabicTranslations = arabic;
-    };
+    }
+
+    ;
     //end of the setters functions
 
 }

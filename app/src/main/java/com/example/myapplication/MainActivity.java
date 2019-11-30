@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         Numbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent NumbersLayerAccess = new Intent(MainActivity.this, Numbers.class);
+                Intent NumbersLayerAccess = new Intent(MainActivity.this, Colors.class);
                 startActivity(NumbersLayerAccess);
             }
 
