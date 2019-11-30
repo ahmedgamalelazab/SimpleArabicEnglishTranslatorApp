@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00838f"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/Fmily_textLayout_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Family Vocabulary"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:background="#d32f2f"
+                android:layout_marginTop="15dp"
+                />
+
+            <TextView
+                android:id="@+id/General_textLayout_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="General Vocabulary"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:background="#880e4f"
+                />
+
+            <TextView
+                android:id="@+id/Military_textLayout_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Military Vocabulary"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:background="#4a148c"
+                />
+
+            <TextView
+                android:id="@+id/Numbers_textLayout_mainActivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Numbers Vocabulary"
+                android:gravity="center"
+                android:padding="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+                android:textColor="#fafafa"
+                android:textStyle="bold"
+                android:background="#311b92"
+                />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/background"
+                android:padding="30dp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
